@@ -1,0 +1,68 @@
+.iconLanguages {
+    width: 64px;
+    height: 64px;
+  }
+
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .project-card {
+    text-align: center;
+  }
+  .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .section-title {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #6c757d;
+    margin-bottom: 2rem;
+  }
+  .company-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .role-title {
+    font-weight: bold;
+    color: #6c757d;
+  }
+  .date {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  .contact-section {
+    background-color: #f8f9fa; /* Fondo claro */
+    padding: 3rem 1rem;
+  }
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 1rem;
+  }
+  .contact-description {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  .form-control {
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  .submit-btn {
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .submit-btn:hover {
+    background-color: #212529;
+  }
