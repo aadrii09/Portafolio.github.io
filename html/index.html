@@ -20,23 +20,25 @@
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#proyectos">Proyectos</a>
+                <a class="nav-link active" href="#sobremi">Sobre mi</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#habilidades">Habilidades</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiencia">Experiencia</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#contacto">Contacto</a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="#contacto">wefwf</a>
+                <a type="button" class="btn btn-dark" href="../curriculum/Curriculum .pdf" dowload="curriculum.pdf" target="_blank">Descargar CV</a>
               </li>
-              <li class="nav-item">
-                <button type="button" class="btn btn-dark">Descargar CV</button>
-              </li>
+
             </ul>
           </div>
         </div>
@@ -47,10 +49,10 @@
     </header>
 
     <main>
-        <article class="container mt-5">
+        <article id="sobremi" class="container mt-5">
             <div class="row align-items-center">
               <div class="col-md-8">
-                <h1 class="fw-bold">Laura González</h1>
+                <h1 class="fw-bold">Adrián Castro</h1>
                 <p class="text-secondary">
                   Me encanta dar vida a ideas digitales, creando sitios web modernos, responsivos y funcionales.
                   Uso herramientas como Figma para diseñar interfaces atractivas y Bootstrap para convertir esos diseños en experiencias web reales y accesibles.
@@ -75,78 +77,169 @@
             </div>
           </article>
     </main>
+    <article id="habilidades" class="container py-5">
+      <h2 class="text-center mb-4">Habilidades y tecnologías que domino</h2>
 
-    <article class="container text-center my-5">
-        <h6 class="text-muted">Habilidades</h6>
-        <h2 class="fw-bold mb-4">Habilidades y tecnologías que domino</h2>
-        <div class="row row-cols-2 row-cols-md-4 g-4">
-          <div class="col">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="Javascript" class="iconLanguages mb-2">
-            <p class="mb-0">Javascript</p>
-          </div>
-          <div class="col">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" class="iconLanguages mb-2">
-            <p class="mb-0">React</p>
-          </div>
-          <div class="col">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="PostgreSQL" class="iconLanguages mb-2">
-            <p class="mb-0">PostgreSQL</p>
-          </div>
-          <div class="col">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js" class="iconLanguages mb-2">
-            <p class="mb-0">Node.js</p>
-          </div>
-          <div class="col">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png" alt="Sass/Scss" class="iconLanguages mb-2">
-            <p class="mb-0">Sass/Scss</p>
-          </div>
-          <div class="col">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="TailwindCSS" class="iconLanguages mb-2">
-            <p class="mb-0">TailwindCSS</p>
-          </div>
-          <div class="col">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" class="iconLanguages mb-2">
-            <p class="mb-0">Figma</p>
-          </div>
-          <div class="col">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" alt="Git" class="iconLanguages mb-2">
-            <p class="mb-0">Git</p>
+      <!-- Primera fila (visible) -->
+      <div class="skills-row">
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+          <h5>JavaScript</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+          <h5>React</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" />
+          <h5>PostgreSQL</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+          <h5>Node.js</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" />
+          <h5>TypeScript</h5>
+        </div>
+      </div>
+
+      <!-- Segunda fila (visible) -->
+      <div class="skills-row">
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass/SCSS" />
+          <h5>Sass/SCSS</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind CSS" />
+          <h5>Tailwind CSS</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" />
+          <h5>Figma</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+          <h5>Git</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
+          <h5>Docker</h5>
+        </div>
+      </div>
+
+      <!-- Tercera fila (oculta) -->
+      <div class="skills-row hidden-row">
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+          <h5>Python</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" />
+          <h5>Django</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+          <h5>MongoDB</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" />
+          <h5>Redis</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" alt="Nginx" />
+          <h5>Nginx</h5>
+        </div>
+      </div>
+
+       <!-- Cuarta fila (oculta) -->
+       <div class="skills-row hidden-row">
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+          <h5>Python</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" />
+          <h5>Django</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+          <h5>MongoDB</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" />
+          <h5>Redis</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" alt="Nginx" />
+          <h5>Nginx</h5>
+        </div>
+      </div>
+
+       <!-- Quinta fila (oculta) -->
+       <div class="skills-row hidden-row">
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+          <h5>Python</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" />
+          <h5>Django</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+          <h5>MongoDB</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" />
+          <h5>Redis</h5>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" alt="Nginx" />
+          <h5>Nginx</h5>
+        </div>
+      </div>
+
+      <!-- Botón -->
+      <div class="btn-container">
+        <button class="btn btn-primary btn-show-more" id="toggleButton">
+          Ver más <i class="fas fa-chevron-down ms-2"></i>
+        </button>
+      </div>
+    </article>
+
+    <article id="proyectos" class="container my-5">
+      <div class="text-center mb-4">
+        <h6 class="text-muted">Mis proyectos</h6>
+      </div>
+  
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="../img/proyecto1.png" alt="Proyecto1">
+            <h5 class="mt-3">Memory Game</h5>
+            <p class="text-muted">Subtítulo</p>
           </div>
         </div>
-      </article>
-
-      <article class="container my-5">
-        <div class="text-center mb-4">
-          <h6 class="text-muted">Mis proyectos</h6>
-        </div>
-    
-
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="project-card">
-              <img src="../img/proyecto1.png" alt="Proyecto1">
-              <h5 class="mt-3">Memory Game</h5>
-              <p class="text-muted">Subtítulo</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project-card">
-              <img src="../img/proyecto2.png" alt="Proyecto2">
-              <h5 class="mt-3">Belvas Project</h5>
-              <p class="text-muted">Subtítulo</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project-card">
-              <img src="../img/proyecto3.png" alt="Proyecto3">
-              <h5 class="mt-3">Chose the Wood</h5>
-              <p class="text-muted">Subtítulo</p>
-            </div>
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="../img/proyecto2.png" alt="Proyecto2">
+            <h5 class="mt-3">Belvas Project</h5>
+            <p class="text-muted">Subtítulo</p>
           </div>
         </div>
-      </article>
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="../img/proyecto3.png" alt="Proyecto3">
+            <h5 class="mt-3">Chose the Wood</h5>
+            <p class="text-muted">Subtítulo</p>
+          </div>
+        </div>
+      </div>
+    </article>
 
-      <article class="container py-5">
+      <article id="experiencia" class="container py-5">
         <h2 class="section-title">Estas han sido mis últimas experiencias laborales</h2>
     
         <aside class="card mb-4">
@@ -156,7 +249,7 @@
                 <p class="company-title">EMPRESA</p>
               </div>
               <div class="col-md-4">
-                <p class="role-title">ROL</p>
+                <p class="role-title">Camarero</p>
                 <ul>
                   <li>Descripción/tarea</li>
                   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -177,7 +270,7 @@
                 <p class="company-title">EMPRESA</p>
               </div>
               <div class="col-md-4">
-                <p class="role-title">ROL</p>
+                <p class="role-title">Dependiente</p>
                 <ul>
                   <li>Sed quis justo ac magna.</li>
                   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -192,12 +285,12 @@
         </aside>
       </article>
 
-      <div class="container contact-section">
+      <div id="contacto" class="container contact-section">
         <div class="row">
           <div class="col-md-6">
             <h2 class="section-title">Contacto</h2>
             <p class="contact-description">
-              Escríbeme a <a href="mailto:email@example.com">email@example.com</a> o encuéntrame en 
+              Escríbeme a <a href="mailto:adriancastrobeiro.com">email@example.com</a> o encuéntrame en 
               <a href="https://linkedin.com/" target="_blank">LinkedIn</a>. ¡Estoy lista para colaborar contigo!
             </p>
           </div>
@@ -226,14 +319,8 @@
           </a>
         </div>
       </footer>
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../javaScript/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 </body>
 </html>

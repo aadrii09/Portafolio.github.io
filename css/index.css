@@ -66,3 +66,75 @@
   .submit-btn:hover {
     background-color: #212529;
   }
+
+
+
+
+
+  .skills-row {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    
+  }
+
+  .skill-card {
+    flex: 0 0 10%; /* 5 columnas */
+    max-width: 18%;
+    transition: transform 0.3s ease;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .skill-card img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .skill-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .hidden-row {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .hidden-row.show {
+    display: flex;
+    opacity: 1;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+
+  .btn-show-more {
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+  }
+
+  @media (max-width: 992px) {
+    .skill-card {
+      flex: 0 0 45%; /* 2 columnas en pantallas más pequeñas */
+      max-width: 45%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
