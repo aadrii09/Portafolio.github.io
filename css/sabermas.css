@@ -1,0 +1,16 @@
+.table-container {
+    margin-top: 50px; /* Espaciado superior */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si es necesario */
+}
+body {
+    background-color: #121212; /* Fondo base oscuro */
+    background-image: url('../img/textura.avif'); /* Textura sutil */
+    background-repeat: repeat; /* Repetir textura */
+    color: #FFFFFF; /* Texto blanco */
+    font-family: Arial, sans-serif; /* Fuente limpia */
+    margin: 0;
+    padding: 0;
+  }
+  
