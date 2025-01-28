@@ -1,3 +1,42 @@
+body{
+  background-image:url('../img/ladrillos.jpeg');
+  image-rendering: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+header{
+  background-color: #343a40;
+}
+footer{
+  background-color: #343a40;
+  margin-top: 60px;
+}
+.card {
+  background-color: rgb(33, 37, 41, 0.4);
+  box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+-webkit-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+-moz-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+}
+#contacto{
+  background-color: rgb(33, 37, 41, 0.4);
+  box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+-webkit-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+-moz-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+}
+#sobremi{
+  background-color: rgb(33, 37, 41, 0.4);
+  box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+  border-radius: 30px;
+-webkit-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+-moz-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+}
+.enlace{
+  color: #bcbbbb;
+}
+.form-control{
+  background-color: rgb(161, 163, 164, 0.7) !important;
+}
 .iconLanguages {
     width: 64px;
     height: 64px;
