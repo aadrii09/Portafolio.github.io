@@ -5,12 +5,31 @@
     align-items: center; /* Centra verticalmente si es necesario */
 }
 body {
-    background-color: #121212; /* Fondo base oscuro */
-    background-image: url('../img/textura.avif'); /* Textura sutil */
-    background-repeat: repeat; /* Repetir textura */
-    color: #FFFFFF; /* Texto blanco */
+    background-image:url('../img/ladrillos.jpeg');
+    image-rendering: auto;
+    background-repeat: no-repeat;
+    background-size: cover; 
     font-family: Arial, sans-serif; /* Fuente limpia */
     margin: 0;
     padding: 0;
+    color: black;
   }
-  
+  header{
+    background-color: rgba(132, 136, 140, 0.6);
+  }
+  footer{
+    background-color: rgba(132, 136, 140, 0.6);
+    margin-top: 60px;
+  }
+  /* .table{
+    background-color: rgb(33, 37, 41, 0.6);
+  box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+-webkit-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+-moz-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+  }
+  .thead{
+    background-color: rgb(33, 37, 41, 0.6);
+  }
+  .tbody{
+    background-color: rgb(33, 37, 41, 0.6);
+  } */

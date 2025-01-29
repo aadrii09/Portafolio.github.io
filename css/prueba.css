@@ -1,0 +1,181 @@
+body{
+    background-image:url('../img/ladrillos.jpeg');
+    image-rendering: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+  }
+  header{
+    background-color: rgb(33, 37, 41, 0.5);
+  }
+  footer{
+    background-color: rgb(33, 37, 41, 0.5);
+    margin-top: 60px;
+  }
+  .card {
+    background-color: rgba(132, 136, 140, 0.5);
+    box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+  -webkit-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+  -moz-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+  }
+  #contacto{
+    background-color: rgb(165, 168, 173, 0.5);
+    box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+  -webkit-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+  -moz-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+  border-radius: 15px;
+  }
+  #sobremi{
+    background-color: rgba(132, 136, 140, 0.5);
+    box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+    border-radius: 30px;
+  -webkit-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+  -moz-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
+  }
+  .enlace{
+    color: #bcbbbb;
+  }
+  .form-control{
+    background-color: rgb(161, 163, 164, 0.7) !important;
+  }
+  .iconLanguages {
+      width: 64px;
+      height: 64px;
+    }
+  
+    .project-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .project-card {
+      text-align: center;
+    }
+    .card {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .section-title {
+      text-align: center;
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: #6c757d;
+      margin-bottom: 2rem;
+    }
+    .company-title {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    .role-title {
+      font-weight: bold;
+      color: #6c757d;
+    }
+    .date {
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+    .contact-section {
+      background-color: #f8f9fa; /* Fondo claro */
+      padding: 3rem 1rem;
+    }
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #343a40;
+      margin-bottom: 1rem;
+    }
+    .contact-description {
+      font-size: 1rem;
+      color: #6c757d;
+    }
+    .form-control {
+      background-color: #f1f1f1;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+    .submit-btn {
+      background-color: #343a40;
+      color: white;
+      border: none;
+      padding: 0.5rem 2rem;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .submit-btn:hover {
+      background-color: #212529;
+    }
+  
+  
+  
+  
+  
+    .skills-row {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+      
+    }
+  
+    .skill-card {
+      flex: 0 0 10%; /* 5 columnas */
+      max-width: 18%;
+      transition: transform 0.3s ease;
+      text-align: center;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    .skill-card img {
+      width: 64px;
+      height: 64px;
+    }
+  
+    .skill-card:hover {
+      transform: translateY(-5px);
+    }
+  
+    .hidden-row {
+      display: none;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+  
+    .hidden-row.show {
+      display: flex;
+      opacity: 1;
+    }
+  
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0;
+    }
+  
+    .btn-show-more {
+      padding: 10px 30px;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+    }
+  
+    @media (max-width: 992px) {
+      .skill-card {
+        flex: 0 0 45%; /* 2 columnas en pantallas más pequeñas */
+        max-width: 45%;
+      }
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
