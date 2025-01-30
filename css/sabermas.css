@@ -5,10 +5,8 @@
     align-items: center; /* Centra verticalmente si es necesario */
 }
 body {
-    background-image:url('../img/ladrillos.jpeg');
-    image-rendering: auto;
-    background-repeat: no-repeat;
-    background-size: cover; 
+  background-color: #4a4242;
+  background-image: linear-gradient(43deg, #4a4242 0%, #848284 46%, #323232 100%); 
     font-family: Arial, sans-serif; /* Fuente limpia */
     margin: 0;
     padding: 0;
