@@ -1,33 +1,38 @@
 .table-container {
-    margin-top: 50px; /* Espaciado superior */
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente si es necesario */
+  margin-top: 3.125rem; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
 }
 body {
-  background-color: #4a4242;
-  background-image: linear-gradient(43deg, #4a4242 0%, #848284 46%, #323232 100%); 
-    font-family: Arial, sans-serif; /* Fuente limpia */
-    margin: 0;
-    padding: 0;
-    color: black;
-  }
-  header{
-    background-color: rgba(132, 136, 140, 0.6);
-  }
-  footer{
-    background-color: rgba(132, 136, 140, 0.6);
-    margin-top: 60px;
-  }
-  /* .table{
-    background-color: rgb(33, 37, 41, 0.6);
-  box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
--webkit-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
--moz-box-shadow: 11px 16px 17px 2px rgba(0,0,0,0.72);
-  }
-  .thead{
-    background-color: rgb(33, 37, 41, 0.6);
-  }
-  .tbody{
-    background-color: rgb(33, 37, 41, 0.6);
-  } */
+background-color: #4a4242;
+background-image: linear-gradient(43deg, #4a4242 0%, #848284 46%, #323232 100%); 
+  font-family: monospace; 
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+header {
+  background-color: rgba(132, 136, 140, 0.6);
+}
+footer {
+  background-color: rgba(132, 136, 140, 0.6);
+  margin-top: 3.75rem;
+}
+.foto {
+  width: 25rem !important;
+  height: 18.75rem !important;
+}
+table{
+background-image: linear-gradient(43deg, #585858 0%, #848284 46%, #585858 100%); 
+color: rgb(0, 0, 0);
+} 
+td{
+  border: 2px solid black !important;
+}
+thead{
+  border: 2px solid black !important;
+}
+thead>tr>th{
+  border: 2px solid black !important;
+}
