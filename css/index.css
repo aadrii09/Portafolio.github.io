@@ -1,22 +1,31 @@
+/* Estilos generales del body: Fondo con degradado, color de texto negro y fuente monoespaciada */
 body {
   background-color: #4a4242;
   background-image: linear-gradient(43deg, #4a4242 0%, #848284 46%, #323232 100%);
   color: black;
   font-family: monospace;
 }
+
+/* Fondo semitransparente para el header */
 header {
   background-color: rgba(132, 136, 140, 0.6);
 }
+
+/* Fondo semitransparente y margen superior para el footer */
 footer {
   background-color: rgba(132, 136, 140, 0.6);
   margin-top: 3.75rem;
 }
+
+/* Estilos para las tarjetas (.card): Fondo oscuro semitransparente y sombra */
 .card {
   background-color: rgba(33, 37, 41, 0.6);
   box-shadow: 0.6875rem 1rem 1.0625rem 0.125rem rgba(0, 0, 0, 0.72);
   -webkit-box-shadow: 0.6875rem 1rem 1.0625rem 0.125rem rgba(0, 0, 0, 0.72);
   -moz-box-shadow: 0.6875rem 1rem 1.0625rem 0.125rem rgba(0, 0, 0, 0.72);
 }
+
+/* Estilos para el formulario de contacto: Fondo oscuro, sombra y bordes redondeados */
 #contacto {
   background-color: rgba(33, 37, 41, 0.6);
   box-shadow: 0.6875rem 1rem 1.0625rem 0.125rem rgba(0, 0, 0, 0.72);
@@ -24,6 +33,8 @@ footer {
   -moz-box-shadow: 0.6875rem 1rem 1.0625rem 0.125rem rgba(0, 0, 0, 0.72);
   border-radius: 0.9375rem;
 }
+
+/* Estilos para la sección "Sobre mí": Fondo oscuro con mayor transparencia, sombra y bordes más redondeados */
 #sobremi {
   background-color: rgba(33, 37, 41, 0.5);
   box-shadow: 0.6875rem 1rem 1.0625rem 0.125rem rgba(0, 0, 0, 0.72);
@@ -31,29 +42,43 @@ footer {
   -webkit-box-shadow: 0.6875rem 1rem 1.0625rem 0.125rem rgba(0, 0, 0, 0.72);
   -moz-box-shadow: 0.6875rem 1rem 1.0625rem 0.125rem rgba(0, 0, 0, 0.72);
 }
+
+/* Color de los enlaces */
 .enlace {
   color: #bcbbbb;
 }
+
+/* Fondo semitransparente para los inputs del formulario */
 .form-control {
   background-color: rgba(161, 163, 164, 0.7) !important;
 }
+
+/* Tamaño de los iconos de lenguajes de programación */
 .iconLanguages {
   width: 4rem;
   height: 4rem;
 }
+
+/* Estilos de las imágenes dentro de las tarjetas de proyectos */
 .project-card img {
   width: 100%;
   height: auto;
   border-radius: 0.5rem;
 }
+
+/* Alineación del contenido dentro de las tarjetas de proyectos */
 .project-card {
   text-align: center;
 }
+
+/* Eliminación de bordes en las tarjetas y aplicación de bordes redondeados con sombra ligera */
 .card {
   border: none;
   border-radius: 0.75rem;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
+
+/* Estilos para los títulos de sección */
 .section-title {
   text-align: center;
   font-size: 1.25rem;
@@ -61,38 +86,54 @@ footer {
   color: #6c757d;
   margin-bottom: 2rem;
 }
+
+/* Título de la empresa en experiencia laboral */
 .company-title {
   font-weight: bold;
   font-size: 1.2rem;
 }
+
+/* Título del rol en experiencia laboral */
 .role-title {
   font-weight: bold;
   color: #6c757d;
 }
+
+/* Fecha de experiencia laboral */
 .date {
   font-size: 0.9rem;
   color: #6c757d;
 }
+
+/* Estilos de la sección de contacto */
 .contact-section {
   background-color: #f8f9fa;
   padding: 3rem 1rem;
 }
+
+/* Tamaño y color del título de la sección de contacto */
 .section-title {
   font-size: 1.5rem;
   font-weight: bold;
   color: #343a40;
   margin-bottom: 1rem;
 }
+
+/* Descripción dentro de la sección de contacto */
 .contact-description {
   font-size: 1rem;
   color: #6c757d;
 }
+
+/* Estilos de los inputs del formulario de contacto */
 .form-control {
   background-color: #f1f1f1;
   border: none;
   border-radius: 0.3125rem;
   margin-bottom: 1rem;
 }
+
+/* Botón de enviar en el formulario */
 .submit-btn {
   background-color: #343a40;
   color: white;
@@ -102,9 +143,13 @@ footer {
   transition: background-color 0.3s ease;
   border: 2px solid rgb(40, 38, 38) !important;
 }
+
+/* Cambio de color al pasar el cursor sobre el botón de enviar */
 .submit-btn:hover {
   background-color: #26292b;
 }
+
+/* Diseño de la fila de habilidades: Distribución centrada y adaptable */
 .skills-row {
   display: flex;
   justify-content: center;
@@ -112,6 +157,8 @@ footer {
   margin-bottom: 1.5rem;
   flex-wrap: wrap;
 }
+
+/* Tarjetas de habilidades: Tamaño, sombra y bordes redondeados */
 .skill-card {
   flex: 0 0 10%;
   max-width: 18%;
@@ -122,36 +169,49 @@ footer {
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
   background-color: rgba(132, 136, 140, 0.7);
 }
+
+/* Tamaño de los iconos dentro de las tarjetas de habilidades */
 .skill-card img {
   width: 4rem;
   height: 4rem;
 }
+
+/* Efecto de elevación al pasar el cursor sobre las tarjetas de habilidades */
 .skill-card:hover {
   transform: translateY(-0.3125rem);
 }
+
+/* Fila oculta que se muestra con animación */
 .hidden-row {
   display: none;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
+
+/* Cuando la fila oculta se activa, se muestra con efecto de opacidad */
 .hidden-row.show {
   display: flex;
   opacity: 1;
 }
+
+/* Contenedor de botones centrado */
 .btn-container {
   display: flex;
   justify-content: center;
   margin: 2rem 0;
 }
+
+/* Botón para mostrar más contenido con animaciones */
 .btn-show-more {
   padding: 0.625rem 1.875rem;
   font-size: 1.1rem;
   transition: all 0.3s ease;
 }
+
+/* Ajustes para pantallas menores a 992px: Tarjetas de habilidades más grandes */
 @media (max-width: 992px) {
   .skill-card {
     flex: 0 0 45%;
     max-width: 45%;
   }
 }
-

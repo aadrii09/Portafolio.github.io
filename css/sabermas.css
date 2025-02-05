@@ -1,38 +1,55 @@
+/* Contenedor de la tabla: Centra la tabla en la página con margen superior */
 .table-container {
   margin-top: 3.125rem; 
   display: flex;
   justify-content: center; 
   align-items: center; 
 }
+
+/* Estilos generales del body: Fondo con degradado, fuente monoespaciada, sin márgenes ni relleno y color de texto negro */
 body {
-background-color: #4a4242;
-background-image: linear-gradient(43deg, #4a4242 0%, #848284 46%, #323232 100%); 
+  background-color: #4a4242;
+  background-image: linear-gradient(43deg, #4a4242 0%, #848284 46%, #323232 100%); 
   font-family: monospace; 
   margin: 0;
   padding: 0;
   color: black;
 }
+
+/* Fondo semitransparente para el header */
 header {
   background-color: rgba(132, 136, 140, 0.6);
 }
+
+/* Fondo semitransparente y margen superior para el footer */
 footer {
   background-color: rgba(132, 136, 140, 0.6);
   margin-top: 3.75rem;
 }
+
+/* Tamaño fijo para las imágenes con la clase .foto */
 .foto {
   width: 25rem !important;
   height: 18.75rem !important;
 }
-table{
-background-image: linear-gradient(43deg, #585858 0%, #848284 46%, #585858 100%); 
-color: rgb(0, 0, 0);
+
+/* Estilos para la tabla: Fondo con degradado y texto en color negro */
+table {
+  background-image: linear-gradient(43deg, #585858 0%, #848284 46%, #585858 100%); 
+  color: rgb(0, 0, 0);
 } 
-td{
+
+/* Bordes de las celdas de la tabla */
+td {
   border: 2px solid black !important;
 }
-thead{
+
+/* Bordes para el encabezado de la tabla */
+thead {
   border: 2px solid black !important;
 }
-thead>tr>th{
+
+/* Bordes de las celdas dentro del encabezado */
+thead > tr > th {
   border: 2px solid black !important;
 }
