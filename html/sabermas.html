@@ -1,53 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/sabermas.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <title>Saber más</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <!-- Enlaces a Bootstrap para darle estilos y estructura rápida a la web -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+              integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+              crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/sabermas.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+        
+        <!-- Título que aparecerá en la pestaña del navegador -->
+        <title>Saber más</title>
+    </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- Botón para desplegar el menú en dispositivos móviles -->
+                <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                
+                <!-- Menú de navegación centrado -->
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
+                        <!-- Enlaces a las diferentes secciones del sitio -->
+                        <li class="nav-item"><a class="nav-link active text-dark fw-bold" href="./index.html">Sobre mí</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="./index.html">Habilidades</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="./index.html">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="./index.html">Experiencia</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="./index.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="./index.html">Saber más</a></li>
+    
+                        <!-- Botón para descargar el CV con tooltip informativo -->
                         <li class="nav-item">
-                            <a class="nav-link active text-dark fw-bold" href="./index.html">Sobre mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark fw-bold" href="./index.html">Habilidades</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark fw-bold" href="./index.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark fw-bold" href="./index.html">Experiencia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark fw-bold" href="./index.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark fw-bold" href="./index.html">Saber más</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-dark" href="../curriculum/Curriculum.pdf" target="_blank" download="curriculum.pdf"  data-bs-toggle="tooltip" title="Click here!">Descargar CV</a>
+                            <a class="btn btn-dark" href="../curriculum/Curriculum.pdf" target="_blank" download="curriculum.pdf" 
+                               data-bs-toggle="tooltip" title="Click aquí para descargar">
+                                Descargar CV
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    
+    <!-- Título principal centrado -->
     <h1 class="text-center mb-5">Proyectos destacados</h1>
+    
+    <!-- Contenedor flexible para la tabla de proyectos -->
     <article class="table-container d-flex flex-md-column">
         
-        <table class="table-bordered table-responsive text-center w-75 ">
+        <!-- Tabla responsive con bordes y centrada en la pantalla -->
+        <table class="table-bordered table-responsive text-center w-75">
             <thead>
                 <tr>
                     <th>Nombre Asignatura</th>
@@ -56,31 +64,42 @@
                 </tr>
             </thead>
             <tbody>
+                <!-- Fila con un proyecto de Diseño Web -->
                 <tr>
                     <td>Diseño Web</td>
                     <td><button class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalPodcast">Podcast</button></td>
                     <td>17-01-2025</td>
                 </tr>
+    
+                <!-- Fila con un proyecto de Backend -->
                 <tr>
                     <td>Backend</td>
                     <td><button class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalHoteles">Hoteles Spring</button></td>
                     <td>27-11-2024</td>
                 </tr>
+    
+                <!-- Fila con un proyecto de Frontend -->
                 <tr>
                     <td>Frontend</td>
                     <td><button class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalPuzzle">Sliding-puzzle</button></td>
                     <td>9-12-2024</td>
                 </tr>
+    
+                <!-- Fila con un proyecto de Despliegue de Aplicaciones -->
                 <tr>
                     <td>Despliegue de Aplicaciones</td>
                     <td><button class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalPHP">ProyectosPHP</button></td>
                     <td>9-12-2024</td>
                 </tr>
+    
+                <!-- Fila con un proyecto de Ciberseguridad -->
                 <tr>
-                    <td>Ciber seguridad</td>
+                    <td>Ciberseguridad</td>
                     <td><button class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalHacking">Hacking ético</button></td>
                     <td>22-08-2024</td>
                 </tr>
+    
+                <!-- Fila con un proyecto de Hardware -->
                 <tr>
                     <td>Hardware</td>
                     <td><button class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#modalHardware">Hardware</button></td>
@@ -88,139 +107,208 @@
                 </tr>
             </tbody>
         </table>
-
-        
-        <div class="modal fade" id="modalPodcast" tabindex="-1" aria-labelledby="modalPodcastLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header d-flex justify-content-center">
-                        <h5 class="modal-title" id="modalPodcastLabel">Podcast</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center">
-                        <a href="https://github.com/aadrii09/Podcast" class="text-decoration-none">Podcast</a>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <a href="https://github.com/aadrii09/Podcast" class="btn btn-primary">Ir al repositorio</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        
-        <div class="modal fade" id="modalHoteles" tabindex="-1" aria-labelledby="modalHotelesLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header d-flex justify-content-center">
-                        <h5 class="modal-title" id="modalHotelesLabel">Hoteles</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center">
-                        <a href="https://github.com/aadrii09/Spring-Hoteles" class="text-decoration-none">Hoteles</a>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <a href="https://github.com/aadrii09/Spring-Hoteles" class="btn btn-primary">Ir al repositorio</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="modalPuzzle" tabindex="-1" aria-labelledby="modalPuzzleLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header d-flex justify-content-center">
-                        <h5 class="modal-title" id="modalPuzzleLabel">Sliding-puzzle</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center">
-                        <a href="https://github.com/aadrii09/sliding-puzzle" class="text-decoration-none">Sliding-puzzle</a>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <a href="https://github.com/aadrii09/sliding-puzzle" class="btn btn-primary">Ir al repositorio</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-      
-        <div class="modal fade" id="modalPHP" tabindex="-1" aria-labelledby="modalPHPLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header d-flex justify-content-center">
-                        <h5 class="modal-title" id="modalPHPLabel">ProyectosPHP</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center">
-                        <a href="https://github.com/aadrii09/ProyectosPHP2" class="text-decoration-none">ProyectosPHP</a>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <a href="https://github.com/aadrii09/ProyectosPHP2" class="btn btn-primary">Ir al repositorio</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="modal fade" id="modalHacking" tabindex="-1" aria-labelledby="modalHackingLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header d-flex justify-content-center">
-                        <h5 class="modal-title" id="modalHackingLabel">Hacking ético</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center">
-                        <a href="https://github.com/juliourena/CursoIntroHacking" class="text-decoration-none">Hacking ético</a>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <a href="https://github.com/juliourena/CursoIntroHacking" class="btn btn-primary">Ir al repositorio</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-     
-        <div class="modal fade" id="modalHardware" tabindex="-1" aria-labelledby="modalHardwareLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header d-flex justify-content-center">
-                        <h5 class="modal-title" id="modalHardwareLabel">Hardware</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center">
-                        <a href="https://github.com/juliourena/CursoIntroHacking" class="text-decoration-none">Hardware</a>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <a href="https://github.com/juliourena/CursoIntroHacking" class="btn btn-primary">Ir al repositorio</a>
-                    </div>
-                </div>
-            </div>
-        </div>
     </article>
-
-
     
 
-    <footer class="text-center py-4">
-        <p>También puedes encontrarme aquí</p>
-        <div class="d-flex justify-content-center align-items-center mt-4">
-            <a href="https://github.com/aadrii09" class="mx-2 text-decoration-none">
-                <i class="bi bi-github fs-3 text-dark"></i>
-            </a>
-            <a href="https://x.com" class="mx-2 text-decoration-none">
-                <i class="bi bi-twitter fs-3 text-dark"></i>
-            </a>
-            <a href="https://www.figma.com/" class="mx-2 text-decoration-none">
-                <i class="fa-brands fa-figma fs-3 text-dark"></i>
-            </a>
+        
+       <!-- Modal para el proyecto "Podcast" -->
+<div class="modal fade" id="modalPodcast" tabindex="-1" aria-labelledby="modalPodcastLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Cabecera del modal con el título y botón de cerrar -->
+            <div class="modal-header d-flex justify-content-center">
+                <h5 class="modal-title" id="modalPodcastLabel">Podcast</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <!-- Cuerpo del modal con enlace al repositorio -->
+            <div class="modal-body text-center">
+                <a href="https://github.com/aadrii09/Podcast" class="text-decoration-none">Podcast</a>
+            </div>
+            <!-- Pie del modal con botones para cerrar o ir al repositorio -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <a href="https://github.com/aadrii09/Podcast" class="btn btn-primary">Ir al repositorio</a>
+            </div>
         </div>
-    </footer>
+    </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Modal para el proyecto "Hoteles" -->
+<div class="modal fade" id="modalHoteles" tabindex="-1" aria-labelledby="modalHotelesLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header d-flex justify-content-center">
+                <h5 class="modal-title" id="modalHotelesLabel">Hoteles</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+                <a href="https://github.com/aadrii09/Spring-Hoteles" class="text-decoration-none">Hoteles</a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <a href="https://github.com/aadrii09/Spring-Hoteles" class="btn btn-primary">Ir al repositorio</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para el proyecto "Sliding-puzzle" -->
+<div class="modal fade" id="modalPuzzle" tabindex="-1" aria-labelledby="modalPuzzleLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header d-flex justify-content-center">
+                <h5 class="modal-title" id="modalPuzzleLabel">Sliding-puzzle</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+                <a href="https://github.com/aadrii09/sliding-puzzle" class="text-decoration-none">Sliding-puzzle</a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <a href="https://github.com/aadrii09/sliding-puzzle" class="btn btn-primary">Ir al repositorio</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para el proyecto "ProyectosPHP" -->
+<div class="modal fade" id="modalPHP" tabindex="-1" aria-labelledby="modalPHPLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header d-flex justify-content-center">
+                <h5 class="modal-title" id="modalPHPLabel">ProyectosPHP</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+                <a href="https://github.com/aadrii09/ProyectosPHP2" class="text-decoration-none">ProyectosPHP</a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <a href="https://github.com/aadrii09/ProyectosPHP2" class="btn btn-primary">Ir al repositorio</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        <!-- Modal para el proyecto "Hacking ético" -->
+<div class="modal fade" id="modalHacking" tabindex="-1" aria-labelledby="modalHackingLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Cabecera del modal -->
+            <div class="modal-header d-flex justify-content-center">
+                <h5 class="modal-title" id="modalHackingLabel">Hacking ético</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <!-- Cuerpo con el enlace al repositorio -->
+            <div class="modal-body text-center">
+                <a href="https://github.com/juliourena/CursoIntroHacking" class="text-decoration-none">Hacking ético</a>
+            </div>
+            <!-- Botones para cerrar o ir al repositorio -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <a href="https://github.com/juliourena/CursoIntroHacking" class="btn btn-primary">Ir al repositorio</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para el proyecto "Hardware" -->
+<div class="modal fade" id="modalHardware" tabindex="-1" aria-labelledby="modalHardwareLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header d-flex justify-content-center">
+                <h5 class="modal-title" id="modalHardwareLabel">Hardware</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+                <a href="https://github.com/juliourena/CursoIntroHacking" class="text-decoration-none">Hardware</a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <a href="https://github.com/juliourena/CursoIntroHacking" class="btn btn-primary">Ir al repositorio</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sección con notas del primer año -->
+<article class="container my-5">
+    <div class="text-center mb-4">
+        <h6 class="text-dark fs-1 mb-5">Mis notas primer año</h6>
+    </div>
+
+    <!-- Carrusel con las asignaturas y sus calificaciones -->
+    <div id="carouselCapacidades" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="text-center">
+                    <img src="https://www.astera.com/wp-content/uploads/2019/05/DBI-1.jpg" class="foto d-block w-25 mx-auto" alt="Base de datos">
+                    <h5 class="mt-2">Base de Datos</h5>
+                    <p class="text-muted">7</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="text-center">
+                    <img src="https://okhosting.com/wp-content/uploads/2019/01/java.jpg" class="foto d-block w-25 mx-auto" alt="Java">
+                    <h5 class="mt-2">Programación Java</h5>
+                    <p class="text-muted">8</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="text-center">
+                    <img src="https://universidadeuropea.com/resources/media/images/que-es-lenguaje-marca-1200x630.original.jpg" class="foto d-block w-25 mx-auto" alt="Lenguaje de marcas">
+                    <h5 class="mt-2">Lenguaje de marcas</h5>
+                    <p class="text-muted">10</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="text-center">
+                    <img src="https://almi.eus/wp-content/uploads/2016/07/sistemasinformaticos-1024x707.jpg" class="foto d-block w-25 mx-auto" alt="Sistemas">
+                    <h5 class="mt-2">Sistemas</h5>
+                    <p class="text-muted">8</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="text-center">
+                    <img src="https://www.damito.net/wp-content/uploads/2018/02/FOL.png" class="foto d-block w-25 mx-auto" alt="FOL">
+                    <h5 class="mt-2">FOL</h5>
+                    <p class="text-muted">9</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controles del carrusel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCapacidades" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCapacidades" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+</article>
+
+<!-- Pie de página con enlaces a redes sociales -->
+<footer class="text-center py-4">
+    <p>También puedes encontrarme aquí</p>
+    <div class="d-flex justify-content-center align-items-center mt-4">
+        <a href="https://github.com/aadrii09" class="mx-2 text-decoration-none">
+            <i class="bi bi-github fs-3 text-dark"></i>
+        </a>
+        <a href="https://x.com" class="mx-2 text-decoration-none">
+            <i class="bi bi-twitter fs-3 text-dark"></i>
+        </a>
+        <a href="https://www.figma.com/" class="mx-2 text-decoration-none">
+            <i class="fa-brands fa-figma fs-3 text-dark"></i>
+        </a>
+    </div>
+</footer>
+
+<!-- Bootstrap java script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

@@ -1,69 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/index.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <title>Portafolio Adrián Castro Beiro</title>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <!-- Importación de estilos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/index.css"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"> 
+    <!-- Título de la pestaña del navegador -->
+    <title>Portafolio Adrián Castro Beiro</title> 
 </head>
 <body>
-  
+    
     <header>
-      <nav class="navbar navbar-expand-lg ">
+      <!-- Barra de navegación -->
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- Botón de menú para pantallas pequeñas -->
+          <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
           </button>
+          
+          <!-- Menú de navegación -->
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link active text-dark fw-bold" href="#sobremi">Sobre mí</a></li>
+              <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#habilidades">Habilidades</a></li>
+              <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#proyectos">Proyectos</a></li>
+              <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#experiencia">Experiencia</a></li>
+              <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#contacto">Contacto</a></li>
+              <li class="nav-item"><a class="nav-link text-dark fw-bold" href="./sabermas.html">Saber más</a></li>
+              
+              <!-- Botón para descargar el CV -->
               <li class="nav-item">
-                <a class="nav-link active text-dark fw-bold" href="#sobremi">Sobre mi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark fw-bold" href="#habilidades" >Habilidades</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark fw-bold" href="#proyectos">Proyectos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark fw-bold" href="#experiencia">Experiencia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark fw-bold" href="#contacto">Contacto</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link text-dark fw-bold" href="./sabermas.html">Saber más</a>
-              </li>
-
-              <li class="nav-item">
-                <a  class="btn btn-dark" href="../curriculum/Curriculum.pdf" target="_blank" download="curriculum.pdf"  data-bs-toggle="tooltip" title="Click here!" >Descargar CV</a>
+                <a class="btn btn-dark" href="../curriculum/Curriculum.pdf" target="_blank" download="curriculum.pdf" data-bs-toggle="tooltip" title="Click here!">Descargar CV</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      
     </header>
 
     <main>
+        <!-- Sección "Sobre mí" -->
         <article id="sobremi" class="container mt-5">
             <div class="row align-items-center p-5">
               <div class="col-md-8">
                 <h1 class="fw-bold mb-4">Adrián Castro</h1>
                 <p class="text-light">
-                  Me encanta dar vida a ideas digitales, creando sitios web modernos, responsivos y funcionales.
-                  Uso herramientas como Figma para diseñar interfaces atractivas y Bootstrap para convertir esos diseños en experiencias web reales y accesibles.
-                  Mi enfoque está en unir diseño y tecnología para entregar proyectos que no solo se vean bien, sino que también funcionen perfectamente en cualquier dispositivo.
-                  ¡Vamos a construir algo increíble juntos!
+                  Me encanta dar vida a ideas digitales, creando sitios web atractivos, funcionales y responsivos.
+                  Uso Figma para diseñar y Bootstrap para materializar las ideas en la web.
+                  Si tienes una idea, ¡trabajemos juntos para hacerla realidad! 🚀
                 </p>
+                
+                <!-- Ubicación y estado de empleo -->
                 <p class="mt-4">
                   <i class="bi bi-geo-alt-fill"></i> A Coruña <br>
                 </p>
                 <span class="text-success"><i class="bi bi-circle-fill"></i> Open to work</span>
+                
+                <!-- Redes sociales -->
                 <div class="row mt-4">
                   <div class="col text-start">
                     <a href="https://github.com/aadrii09" class="text-decoration-none text-dark"><i class="bi bi-github fs-4 me-3"></i></a>
@@ -72,13 +70,15 @@
                   </div>
                 </div>
               </div>
+              
+              <!-- Foto de perfil -->
               <div class="col-md-4 text-center">
-                <img src="../img/fotogithub.jpg" alt="Laura González" class="img-fluid rounded shadow">
+                <img src="../img/fotogithub.jpg" alt="Foto de Adrián" class="img-fluid rounded shadow">
               </div>
             </div>
           </article>
     </main>
-    
+    <!-- cards de las tecnologias -->
     <article id="habilidades" class="container py-5">
       <h2 class="text-center mt-5">Habilidades y Tecnologías</h2>
 
@@ -210,129 +210,144 @@
       </div>
     </article>
 
-    <article class="container my-5">
-      <div class="text-center mb-4">
-        <h6 class="text-dark fs-1 mb-5">Mis capacidades</h6>
+    <!-- Sección de Capacidades con un carrusel de habilidades -->
+<article class="container my-5">
+  <div class="text-center mb-4">
+      <h6 class="text-dark fs-1 mb-5">Mis capacidades</h6>
+  </div>
+  
+  <!-- Carrusel de habilidades -->
+  <div id="carouselCapacidades" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-inner">
+          <!-- Primera habilidad: Full Stack -->
+          <div class="carousel-item active">
+              <div class="text-center">
+                  <img src="../img/proyecto1.png" class="d-block w-25 mx-auto" alt="Proyecto1">
+                  <h5 class="mt-2">Full Stack</h5>
+                  <p class="text-muted">Frontend and Backend</p>
+              </div>
+          </div>
+          <!-- Segunda habilidad: Analista de sistemas -->
+          <div class="carousel-item">
+              <div class="text-center">
+                  <img src="../img/proyecto2.png" class="d-block w-25 mx-auto" alt="Proyecto2">
+                  <h5 class="mt-2">Analista de sistemas</h5>
+                  <p class="text-muted">Diseño de diagramas</p>
+              </div>
+          </div>
+          <!-- Tercera habilidad: Diseño de interfaces web -->
+          <div class="carousel-item">
+              <div class="text-center">
+                  <img src="../img/proyecto3.png" class="d-block w-25 mx-auto" alt="Proyecto3">
+                  <h5 class="mt-2">Diseño de interfaces web</h5>
+                  <p class="text-muted">Diseño y estilos de la web</p>
+              </div>
+          </div>
       </div>
       
-      <div id="carouselCapacidades" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="text-center">
-              <img src="../img/proyecto1.png" class="d-block w-25 mx-auto" alt="Proyecto1">
-              <h5 class="mt-2">Full Stack</h5>
-              <p class="text-muted">Frontend and Backend</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="text-center">
-              <img src="../img/proyecto2.png" class="d-block w-25 mx-auto" alt="Proyecto2">
-              <h5 class="mt-2">Analista de sistemas</h5>
-              <p class="text-muted">Diseño de diagramas</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="text-center">
-              <img src="../img/proyecto3.png" class="d-block w-25 mx-auto" alt="Proyecto3">
-              <h5 class="mt-2">Diseño de interfaces web</h5>
-              <p class="text-muted">Diseño y estilos de la web</p>
-            </div>
-          </div>
-        </div>
-        
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCapacidades" data-bs-slide="prev">
+      <!-- Controles del carrusel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselCapacidades" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselCapacidades" data-bs-slide="next">
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselCapacidades" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Siguiente</span>
-        </button>
-      </div>
-    </article>
+      </button>
+  </div>
+</article>
 
-      <article id="experiencia" class="container py-5">
-        <h2 class="section-title text-dark fs-2 mb-4">Estas han sido mis últimas experiencias laborales</h2>
-    
-        <aside class="card mb-4">
-          <div class="card-body">
-            <div class="row">
+<!-- Sección de Experiencia Laboral -->
+<article id="experiencia" class="container py-5">
+  <h2 class="section-title text-dark fs-2 mb-4">Estas han sido mis últimas experiencias laborales</h2>
+  
+  <!-- Primera experiencia: Camarero en Miramar -->
+  <aside class="card mb-4">
+      <div class="card-body">
+          <div class="row">
               <div class="col-md-4">
-                <p class="company-title text-dark fs-3">Miramar</p>
+                  <p class="company-title text-dark fs-3">Miramar</p>
               </div>
               <div class="col-md-4">
-                <p class="role-title text-dark fs-3">Camarero</p>
-                <ul>
-                  <li class="text-light">Trabajé como camarero en el Miramar, sirviendo comidas y bebidas a los clientes.</li>
-                  <li class="text-light">Atención al cliente – Desarrollan habilidades de comunicación, empatía y resolución de problemas al interactuar con los clientes.</li>
-                  <li class="text-light">Gestión del tiempo y multitarea – Aprenden a manejar múltiples pedidos, atender varias mesas y trabajar bajo presión de manera eficiente.</li>
-                </ul>
+                  <p class="role-title text-dark fs-3">Camarero</p>
+                  <ul>
+                      <li class="text-light">Atención al cliente y servicio de comidas y bebidas.</li>
+                      <li class="text-light">Desarrollo de habilidades de comunicación y resolución de problemas.</li>
+                      <li class="text-light">Gestión del tiempo y trabajo bajo presión.</li>
+                  </ul>
               </div>
               <div class="col-md-4 text-end">
-                <p class="date text-dark">09/08/2024</p>
+                  <p class="date text-dark">09/08/2024</p>
               </div>
-            </div>
           </div>
-        </aside>
-    
-        <aside class="card mb-4">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-md-4">
-                <p class="company-title text-dark fs-3">Claudio</p>
-              </div>
-              <div class="col-md-4">
-                <p class="role-title text-dark fs-3">Dependiente</p>
-                <ul>
-                  <li class="text-light">Trabajé como dependiente en un Claudio, cobrando a los clientes y reponiendo productos en la tienda.</li>
-                  <li class="text-light">Resolución de problemas: Aprender a manejar quejas o situaciones imprevistas, buscando soluciones rápidas y efectivas.</li>
-                  <li class="text-light">Trabajo en equipo: Colaborar con compañeros para mantener el buen funcionamiento de la tienda, mejorar el ambiente laboral y alcanzar objetivos comunes.</li>
-                </ul>
-              </div>
-              <div class="col-md-4 text-end">
-                <p class="date text-dark">12/06/2024</p>
-              </div>
-            </div>
-          </div>
-        </aside>
-      </article>
-      <article class="contactos">
-      <div id="contacto" class="container contact-section">
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="section-title text-dark fs-3">Contacto</h2>
-            <p class="contact-description text-light">
-              Escríbeme a <a href="mailto:adriancastrobeiro.com" class="enlace">adriancastrobeiro@.com</a> o encuéntrame en 
-              <a href="https://linkedin.com/" class="enlace" target="_blank">LinkedIn</a>. ¡Estoy listo para colaborar contigo!
-            </p>
-          </div>
-    
-          <div class="col-md-6">
-            <form>
-              <input type="text" class="form-control" placeholder="Name" required>
-              <input type="email" class="form-control" placeholder="Email" required>
-              <input type="submit" class="btn submit-btn">
-            </form>
-          </div>
-        </div>
       </div>
-      </article>
-      <footer class="text-center py-4">
-        <p>También puedes encontrarme aquí</p>
-        <div class="d-flex justify-content-center align-items-center mt-4">
-          <a href="https://github.com/aadrii09" class="mx-2 text-decoration-none">
-            <i class="bi bi-github fs-3 text-dark"></i>
-          </a>
-          <a href="https://x.com" class="mx-2 text-decoration-none">
-            <i class="bi bi-twitter fs-3 text-dark"></i>
-          </a>
-          <a href="https://www.figma.com/" class="mx-2 text-decoration-none">
-            <i class="fa-brands fa-figma fs-3 text-dark"></i>
-          </a>
-        </div>
-      </footer>
-    <script src="../javaScript/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
+  </aside>
+  
+  <!-- Segunda experiencia: Dependiente en Claudio -->
+  <aside class="card mb-4">
+      <div class="card-body">
+          <div class="row">
+              <div class="col-md-4">
+                  <p class="company-title text-dark fs-3">Claudio</p>
+              </div>
+              <div class="col-md-4">
+                  <p class="role-title text-dark fs-3">Dependiente</p>
+                  <ul>
+                      <li class="text-light">Atención al cliente y gestión de caja.</li>
+                      <li class="text-light">Manejo de inventario y reposición de productos.</li>
+                      <li class="text-light">Trabajo en equipo para optimizar el funcionamiento de la tienda.</li>
+                  </ul>
+              </div>
+              <div class="col-md-4 text-end">
+                  <p class="date text-dark">12/06/2024</p>
+              </div>
+          </div>
+      </div>
+  </aside>
+</article>
+
+<!-- Sección de Contacto -->
+<article class="contactos">
+  <div id="contacto" class="container contact-section">
+      <div class="row">
+          <div class="col-md-6">
+              <h2 class="section-title text-dark fs-3">Contacto</h2>
+              <p class="contact-description text-light">
+                  Escríbeme a <a href="mailto:adriancastrobeiro.com" class="enlace">adriancastrobeiro@.com</a> o encuéntrame en 
+                  <a href="https://linkedin.com/" class="enlace" target="_blank">LinkedIn</a>. ¡Estoy listo para colaborar contigo!
+              </p>
+          </div>
+          <div class="col-md-6">
+              <form>
+                  <input type="text" class="form-control" placeholder="Name" required>
+                  <input type="email" class="form-control" placeholder="Email" required>
+                  <input type="submit" class="btn submit-btn">
+              </form>
+          </div>
+      </div>
+  </div>
+</article>
+
+<!-- Pie de página con enlaces a redes sociales -->
+<footer class="text-center py-4">
+  <p>También puedes encontrarme aquí</p>
+  <div class="d-flex justify-content-center align-items-center mt-4">
+      <a href="https://github.com/aadrii09" class="mx-2 text-decoration-none">
+          <i class="bi bi-github fs-3 text-dark"></i>
+      </a>
+      <a href="https://x.com" class="mx-2 text-decoration-none">
+          <i class="bi bi-twitter fs-3 text-dark"></i>
+      </a>
+      <a href="https://www.figma.com/" class="mx-2 text-decoration-none">
+          <i class="fa-brands fa-figma fs-3 text-dark"></i>
+      </a>
+  </div>
+</footer>
+
+<!-- Scripts de JavaScript -->
+<script src="../javaScript/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
+
 </body>
 </html>
